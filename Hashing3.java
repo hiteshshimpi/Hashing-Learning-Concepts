@@ -9,7 +9,7 @@ public class Hashing3 {
 
     public static void main(String[] args) {
         HashMap<Integer, Integer> hash = new HashMap<>();
-        int[] arr = {8, 2 , 5, 5, 2};
+        int[] arr = {2,3,3,5,2,5,5,5,5};
         int[] query = {6, 5, 2};
 
 
