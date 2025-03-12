@@ -21,7 +21,6 @@ public class Hashing9 {
             }
         }
         System.out.println(hash);
-        System.out.println("Max is  : " + max + " Min is :" + min);
 
         Iterator<Map.Entry<Integer,Integer>> itr = hash.entrySet().iterator();
             while (itr.hasNext())

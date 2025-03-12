@@ -7,8 +7,8 @@ import java.util.HashMap;
 public class HashingSession1 {
     public static void main(String[] args) {
 
-        int arr[] = {3, 1, 2, 3, 2};
-        int k=1;
+        int arr[] = {1,1,3,1,2,3};
+        int k=2;
         int count=0;
         HashMap<Integer, Integer> hash = new HashMap<>();
         for(int i=0;i<arr.length;i++)
@@ -29,7 +29,7 @@ public class HashingSession1 {
                 }
             }
         }
-        System.out.println(count);
+        System.out.println("Count is  : "+count);
 
     }
 }
