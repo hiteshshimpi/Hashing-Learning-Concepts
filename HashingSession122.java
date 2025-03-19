@@ -2,6 +2,7 @@ package Hashing;
 
 import java.util.HashMap;
 
+//Two sum
 public class HashingSession122 {
     public static void main(String[] args) {
         int arr[] ={2,3,3};
