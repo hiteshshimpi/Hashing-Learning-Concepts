@@ -1,6 +1,5 @@
 package Hashing;
-
-import javax.swing.plaf.IconUIResource;
+//Java Program for Count pairs with given sum
 import java.util.HashMap;
 
 public class HashingSession131 {
