@@ -4,9 +4,8 @@ import java.util.HashMap;
 
 public class HashingSession131 {
     public static void main(String[] args) {
-        int [] arr ={10, 12, 10, 15, -1, 7, 6,
-                5, 4, 2, 1, 1, 1};
-        int k =11;
+        int [] arr ={3,2,1,5,4};
+        int k =2;
         int count=0;
         HashMap<Integer,Integer>hash = new HashMap<>();
         for(int i =0;i<arr.length;i++){
