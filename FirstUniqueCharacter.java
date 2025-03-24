@@ -5,7 +5,7 @@ import java.util.HashMap;
 //First Unique Character in a String
 public class FirstUniqueCharacter {
     public static void main(String[] args) {
-        String s = "leetcode";
+        String s = "letcode";
         HashMap<Character, Integer> hash = new HashMap<>();
         for (int i = 0; i < s.length(); i++) {
             if (!hash.containsKey(s.charAt(i))) {
