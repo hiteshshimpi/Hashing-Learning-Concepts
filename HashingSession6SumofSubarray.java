@@ -7,8 +7,8 @@ import java.util.Arrays;
 public class HashingSession6SumofSubarray {
 
     public static void main(String[] args) {
-        int [] arr = {1,0,1,2,10,5};
-        int k =3;
+        int [] arr = {10, 2, -2, -20, 10};
+        int k =-10;
         int[] pre = new int[arr.length];
         pre[0]=arr[0];
         int count=0;

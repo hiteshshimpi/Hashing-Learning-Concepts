@@ -1,7 +1,7 @@
 package Hashing;
 
 import java.util.HashMap;
-
+//Count Number of Pairs With Absolute Difference K
 public class CountKDifference {
     public static void main(String[] args) {
         int[] nums = {1,2,2,1};
