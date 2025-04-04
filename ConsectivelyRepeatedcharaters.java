@@ -2,7 +2,7 @@ package Hashing;
 // Given a string, remove the consecutively repeated characters. For example - aabbbcabcbb to cabc.
 public class ConsectivelyRepeatedcharaters {
     public static void main(String[] args) {
-        String str= "aaabccda";
+        String str= "aabb";
        int i =0;
        String result ="";
        while (i<str.length()-1)
