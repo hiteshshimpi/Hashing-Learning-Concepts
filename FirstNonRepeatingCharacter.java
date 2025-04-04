@@ -1,4 +1,4 @@
-package DSA_2Pointers_Problems;
+package Hashing;
 
 import java.util.HashMap;
 
@@ -25,8 +25,24 @@ public class FirstNonRepeatingCharacter {
            if(val==1)
            {
                System.out.println(str.charAt(i));
-               return;
+
            }
         }
+        System.out.println("Optimized Method **********");
+        optimizedHash();
+    }
+
+
+    public static void optimizedHash()
+    {
+        String str = "abacabad";
+        HashMap<Character,Integer> hash = new HashMap<>();
+        for(int i =0;i<str.length();i++)
+        {
+            char c =str.charAt(i);
+            Integer charCount =hash.get(c);
+            hash.put(c,charCount==null ? 1 : charCount+1 );
+        }
+        System.out.println(hash);
     }
 }
